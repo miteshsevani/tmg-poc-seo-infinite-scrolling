@@ -5,8 +5,8 @@ import PostsPage, { type Post } from "./PostsPage";
 export const revalidate = 60;
 
 const PAGE_SIZE = 10;
-const MAX_PAGE = 7;
-const MAX_CONTENT_ITEMS = 99;
+const MAX_PAGE = 5;
+const MAX_CONTENT_ITEMS = 100;
 const SECTION_SLUG = "posts";
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
